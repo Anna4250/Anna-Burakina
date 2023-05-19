@@ -1,0 +1,121 @@
+* {
+
+  box-sizing: border-box;
+
+}
+body {
+
+  font-family: 'Arial', sans-serif;
+
+}
+. csene {
+width: 100%;
+height: 100%;
+min-height: 450px;
+position: relative;
+top: 0;
+left: 0;
+background-color: #FFFFFF;
+transform: translate3d(0, 0, 0);
+}
+. level-1 {
+animation: animation_fg linear 30s infinite both; 
+background: url(?) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 145px;
+}
+. level-2 {
+animation: animation_fg linear 30s infinite both; 
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/небо.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 1074px;
+}
+. level-3 {
+animation: animation_fg linear 30s infinite both; 
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/море.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 1416px;
+}
+. level-4 {
+animation: animation_fg linear 30s infinite both; 
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/небо%202.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 1543px;
+}
+. level-5 {
+animation: animation_fg linear 30s infinite both; 
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/последний%20фон.png) 0 100% repeat-x;
+z-index: 1;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 3703px;
+}
+. level-6 {
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/pngimg.com%20-%20killer_whale_PNG31.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 211px;
+animation: animation_level-6 linear 10s infinite both;
+}
+. level-7 {
+background: url(https://raw.githubusercontent.com/Anna4250/Anna-Burakina/main/pngimg.com%20-%20squid_PNG30.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 256px;
+animation: animation_level-7 linear 15s infinite both;
+}
+@keyframes animation_fg {
+  0% {
+
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@keyframes animation_scene {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
+
+
+	
+	
+
+
+
