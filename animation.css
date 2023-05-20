@@ -104,7 +104,7 @@ animation: animation_level-7 linear 15s infinite both;
     background-position: 550px 100%;
   }
 }
-@keyframes animation_scene {
+@keyframes animation_animation-level-6 {
   0% {
     background-position: -300px 100%;
   }
@@ -112,7 +112,14 @@ animation: animation_level-7 linear 15s infinite both;
     background-position: 2000px 100%;
   }
 }
-
+@keyframes animation_animation-level-7 {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
 
 	
 	
