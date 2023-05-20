@@ -20,7 +20,7 @@ body {
 }
 
 .layer-5 {
-     animation: animation_fg linear 65s infinite both; 
+     animation: animation_fg linear 100s infinite both; 
 	 background: url(https://raw.githack.com/Anna4250/Anna-Burakina/main/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D1%84%D0%BE%D0%BD.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
@@ -42,7 +42,7 @@ body {
 	 background-size: auto 255px;
 	 }
 	 .layer-3 {
-     animation: animation_fg linear 90s infinite both; 
+     animation: animation_fg linear 70s infinite both; 
 	 background: url(https://raw.githack.com/Anna4250/Anna-Burakina/main/%D0%BC%D0%BE%D1%80%D0%B5.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
@@ -64,7 +64,7 @@ body {
 	 background-size: auto 1074px;
 }
 .layer-1 {
-     animation: animation_fg linear 70s infinite both; 
+     animation: animation_fg linear 45s infinite both; 
 	 background: url(https://raw.githack.com/Anna4250/Anna-Burakina/main/%D0%BD%D0%B5%D0%B1%D0%BE%202.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
